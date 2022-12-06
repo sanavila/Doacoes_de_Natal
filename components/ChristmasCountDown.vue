@@ -1,5 +1,5 @@
 <template>
-    <div class="container-merry-christmas columns">
+    <div id="christmas-count-down" class="container-merry-christmas columns">
         <div class="column ">
             <h1 class="title is-1">Christmas is coming!</h1>
             <p class="title is-3">oh, Jingle Bells, Jingle Bells

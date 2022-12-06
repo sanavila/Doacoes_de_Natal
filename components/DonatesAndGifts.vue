@@ -1,5 +1,5 @@
 <template>
-    <div class="container-merry-christmas columns">
+    <div id="donates-and-gifts" class="container-merry-christmas columns">
         <div class="column">
             <img src="../assets/img/imgDonatesAndGifts/babyChristmas.png" alt="black baby opening gift">
         </div>

@@ -1,7 +1,7 @@
 <template>
   <div>
-   <Navbar /> 
-   <Nuxt />
+    <Navbar />
+    <Nuxt />
   </div>
 </template>
 
@@ -9,6 +9,9 @@
 import Navbar from '../components/Navbar.vue';
 
 export default {
-    components: { Navbar }
+  components: { Navbar }
 }
 </script>
+<style>
+@import "../assets/css/main.css";
+</style>
