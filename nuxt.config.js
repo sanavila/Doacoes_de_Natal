@@ -1,5 +1,9 @@
 export default {
+  target: "static",
   // Global page headers: https://go.nuxtjs.dev/config-head
+  server: {
+    host: "0.0.0.0"
+  },
   head: {
     title: 'christimaspage',
     htmlAttrs: {

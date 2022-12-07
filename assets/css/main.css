@@ -1,3 +1,19 @@
 html {  
     scroll-behavior: smooth;
-  }
+}
+  #merry-christmas, #christmas-count-down {
+    background-color: #a2261e;
+}
+.container-padding {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.image-size {
+    object-fit: cover;
+    height: 400px;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+.image-align, .text-align {
+  text-align: center;
+}
