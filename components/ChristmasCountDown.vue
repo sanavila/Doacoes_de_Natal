@@ -1,12 +1,11 @@
 <template>
     <div id="christmas-count-down" class="container-merry-christmas columns container-padding">
-        <div class="column text-align">
-            <h1 class="title is-1">Christmas is coming!</h1>
-            <p class="title is-3">oh, Jingle Bells, Jingle Bells
-                Jingle all the way!</p>
+        <div class="column has-text-centered is-align-self-center">
+            <h1 class="title is-1 title-font title-color-two-containers">O Natal está chegando!</h1>
+            <p class="title is-4 text-font color-two-containers">Que o espírito natalino viva mais do que apenas um dia no ano.</p>
             <p>HOURS</p>
         </div>
-        <div class="column image-align">
+        <div class="column  has-text-centered is-align-self-center">
             <img class="image-size" src="../assets/img/imgChristmasCountDown/papaiNoelsorrindo.png"
                 alt="santa claus smiling">
         </div>

@@ -1,19 +1,35 @@
-html {  
-    scroll-behavior: smooth;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Frijole&family=Lobster&family=Paytone+One&family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Frijole&family=Lobster&family=Paytone+One&family=Rye&display=swap');
+
+html {
+  scroll-behavior: smooth;
 }
-  #merry-christmas, #christmas-count-down {
-    background-color: #a2261e;
+
+#merry-christmas,
+#christmas-count-down {
+  background-color:  hsl(356, 75%, 45%);
 }
+
 .container-padding {
   padding-top: 70px;
   padding-bottom: 70px;
 }
+
 .image-size {
-    object-fit: cover;
-    height: 400px;
-    user-select: none;
-    -webkit-user-drag: none;
+  object-fit: cover;
+  height: 400px;
+  user-select: none;
+  -webkit-user-drag: none;
 }
-.image-align, .text-align {
-  text-align: center;
+
+.title-font {
+  font-family: 'Lobster', cursive;
+}
+
+.title-color-two-containers {
+  color: #f0da6c;
+}
+
+.color-two-containers {
+  color: hsl(240, 9%, 96%);
 }
