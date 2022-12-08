@@ -5,11 +5,12 @@
         </div>
         <div class="column has-text-centered is-align-self-center">
             <h1 class="title is-1 title-font title-color">Doações & Presentes</h1>
-            <p class="title is-4 text-justify text-font text-color">"Somos uma instituição sem fins lucrativos, tendo nossas
-                operações possíveis a partir de doações de pessoas e empresas que acreditam em nosso trabalho. Todo
-                valor é importante para levarmos um lindo natal para milhares de famílias"
+            <p class="title is-4 text-justify text-font text-color">A Associação é o resultado da união de
+                pessoas, empresas e poder público que escolheram fazer a
+                diferença no cenário da oncologia pediátrica. Você pode ajudar a dar continuidade a esta história de
+                amor e esperança.
             </p>
-            <b-button class="text-font">doe</b-button>
+            <b-button class="button is-success">Doe aqui</b-button>
         </div>
     </div>
 </template>
@@ -24,10 +25,10 @@ export default {
 
 #donates-and-gifts {
     max-height: 500px;
-    background-color: hsl(240, 9%, 96%);
+    background-color: #7dd48b;
 }
 
-.title-color{
+.title-color {
     color: hsl(356, 75%, 45%);
 }
 
@@ -35,6 +36,7 @@ export default {
     text-align: justify;
     padding-right: 25px;
 }
+
 .text-color {
     color: black;
 }
