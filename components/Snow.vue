@@ -87,7 +87,7 @@ export default {
             }
 
             to {
-                transform: translate(${random_x_end_yoyo}vw, ${document.body.clientHeight}px) scale(${random_scale});
+                transform: translate(${random_x_end_yoyo}vw, ${document.body.clientHeight -50}px) scale(${random_scale});
             }
             
         }

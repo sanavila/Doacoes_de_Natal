@@ -24,7 +24,6 @@ export default {
 @import "../assets/css/main.css";
 
 #donates-and-gifts {
-    max-height: 500px;
     background-color: #7dd48b;
 }
 
@@ -34,7 +33,7 @@ export default {
 
 .text-justify {
     text-align: justify;
-    padding-right: 25px;
+    padding-right: 30px;
 }
 
 .text-color {
