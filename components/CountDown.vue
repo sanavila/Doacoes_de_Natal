@@ -62,6 +62,7 @@ export default {
 .count-down {
   max-width: 80%;
   margin: auto;
+  padding-left: 20px;
 }
 
 .box {

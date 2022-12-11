@@ -25,6 +25,7 @@ export default {
 
 #donates-and-gifts {
     background-color: #7dd48b;
+    padding-left: 20px;
 }
 
 .title-color {
