@@ -6,7 +6,7 @@
                 todas as boas ações
                 que fazemos durante a nossa vida.</p>
             <audio controls :src="music">
-                Your browser does not support the audio element.
+                Seu navegador não suporta esse audio
             </audio>
         </div>
         <div class="column has-text-centered is-align-self-center">
@@ -21,7 +21,7 @@ import music from "@/static/audios/jinglebell.mp3";
 
 export default {
     name: "MerryChristmas",
-    data () {
+    data() {
         return {
             music
         }
