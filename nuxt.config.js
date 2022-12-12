@@ -43,7 +43,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    extend (config, ctx) {
+    extend(config, ctx) {
       config.module.rules.push({
         test: /\.(ogg|mp3|wav|mpe?g)$/i,
         loader: 'file-loader',
@@ -51,6 +51,17 @@ export default {
           name: '[path][name].[ext]'
         }
       })
-    }
+    },
+    extractCSS: true,
+    publicPath: 'public'
+  },
+
+  generate: {
+    dir: "docs",
+    fallback: "404.html"
+  },
+
+  router: {
+    base: "/Doacoes_de_Natal"
   }
 }
