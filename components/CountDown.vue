@@ -22,7 +22,6 @@
     </div>
 </template>
 <script>
-import { remove } from '@vue/shared';
 
 export default {
   name: "CountDown",
